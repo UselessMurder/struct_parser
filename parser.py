@@ -49,5 +49,5 @@ if __name__ == "__main__":
         f.write("}\n")
         f.close()
     except Exception as e:
-        print("Something was wrong: " + e)
+        print("Something was wrong: " + str(e))
         raise SystemExit
